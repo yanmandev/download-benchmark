@@ -1,0 +1,16 @@
+{
+  "name": "download-benchmark",
+  "version": "1.0.0",
+  "description": "Measures download speed of a URL with sequential requests",
+  "main": "index.js",
+  "bin": {
+    "download-benchmark": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.3"
+  },
+  "license": "MIT"
+}
